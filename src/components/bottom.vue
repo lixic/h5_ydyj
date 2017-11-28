@@ -2,10 +2,10 @@
 	<div>
 		<ul class="bottom">
 			<li>
-				<router-link to="/" class="active">首页</router-link>
+				<router-link to="/">首页</router-link>
 			</li>
 			<li>
-				<router-link to="/note">笔记</router-link>
+				<router-link to="/notes">笔记</router-link>
 			<li>
 				<router-link to="/article">文章</router-link>
 			<li>
@@ -16,6 +16,17 @@
 		</ul>
 	</div>
 </template>
+<script>
+	export default{
+		data(){
+			return {
+			}
+		},
+		mounted:function(){
+			
+		}
+	}
+</script>
 <style scoped>
 	.bottom{
 		position: fixed;
@@ -36,7 +47,8 @@
 	a{
 		color: #595959;
 	}
-	a.active{
+	/*激活状态*/
+	.router-link-exact-active{
 		color: #2196f3
 	}
 </style>
