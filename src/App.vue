@@ -23,6 +23,6 @@ export default {
 @import './assets/reset.css';
 #app{
   background: #f6f6f9;
-  padding: 48px 0 42px;
+  padding: 66px 0 42px;
 }
 </style>

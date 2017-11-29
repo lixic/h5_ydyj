@@ -2,16 +2,16 @@
 	<div>
 		<ul class="bottom">
 			<li>
-				<router-link to="/">首页</router-link>
+				<router-link to="/"><i class="fa fa-home fa-lg"></i>首页</router-link>
 			</li>
 			<li>
-				<router-link to="/notes">笔记</router-link>
+				<router-link to="/notes"><i class="fa fa-pencil fa-lg"></i>笔记</router-link>
 			<li>
-				<router-link to="/article">文章</router-link>
+				<router-link to="/article"><i class="fa fa-file-text-o fa-lg"></i>文章</router-link>
 			<li>
-				<router-link to="/after">读后感</router-link>
+				<router-link to="/after"><i class="fa fa-eye fa-lg"></i>读后感</router-link>
 			<li>
-				<router-link to="/my">我的</router-link>
+				<router-link to="/my"><i class="fa fa-user fa-lg"></i>我的</router-link>
 			</li>
 		</ul>
 	</div>
@@ -42,10 +42,14 @@
 		float: left;
 		width: 20%;
 		text-align: center;
-		padding: 10px 0;
+		padding: 4px 0;
+	}
+	.bottom li i{
+		width: 100%;
+		margin-bottom: 5px;
 	}
 	a{
-		color: #595959;
+		color: #888;
 	}
 	/*激活状态*/
 	.router-link-exact-active{

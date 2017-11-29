@@ -37,7 +37,7 @@
 				</div>
 				<div class="center">
 					<a href="">
-						<h3>这是文章标题，超出隐藏</h3>
+						<h3>这是文章标题，超出隐藏这是文章标题，超出隐藏这是文章标题，超出隐藏这是文章标题，超出隐藏这是文章标题，超出隐藏这是文章标题，超出隐藏</h3>
 						<p>
 							这是文章内容只能显示2行超出显示隐藏这是文章内容只能显示2行超出显示隐藏这是文章内容只能显示2行超出显示隐藏这是文章内容只能显示2行超出显示隐藏这是文章内容只能显示2行超出显示隐藏这是文章内容只能显示2行超出显示隐藏
 						</p>
@@ -130,6 +130,10 @@
 	    font-weight: 400;
 	    line-height: 1.4;
 	    color: #333;
+	    width: 100%;
+	    white-space: nowrap;
+	    overflow:hidden;
+	    text-overflow: ellipsis;
 	}
 	.center p{
 		text-indent: 2em;
@@ -159,8 +163,8 @@
 	    margin-right: 10px;
 	    font-size: 13px;
 	    line-height: 1;
-	    color: #ea6f5a;
-        border: 1px solid #ea6f5a;
+	    color: #2196f3;
+        border: 1px solid #2196f3;
         border-radius: 6px;
 	}
 </style>
